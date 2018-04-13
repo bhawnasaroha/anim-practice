@@ -10,7 +10,6 @@ $(document).on('click', 'a[href^="#"]', function(event) {
 	}, 1000);
 });
 
-
 $(document).ready(function() {
 	let controller = $.superscrollorama();
 	let toLeft = new TimelineMax();
